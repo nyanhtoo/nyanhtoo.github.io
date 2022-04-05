@@ -17,13 +17,13 @@
         <input type="number" name="html"
         id="html">
         <br><br>
-        <label for="css">CSS/label>
+        <label for="css">CSS</label>
         <input type="number" name="css" id="css">
         <br><br>
         <label for="javascript">JavaScript</label>
         <input type="number" name="javascript" id="javascript">
         <br><br>
-        <button type="button" onclick="result">Result</button>
+        <button type="button" onclick="result()">Result</button>
 
     </form>
     <script>
@@ -32,7 +32,7 @@
             console.log(name);
             let html = document.myform.html.value
             console.log(html);
-            let js = document.myform.js.value
+            let js = document.myform.javascript.value
             console.log(js);
             let css = document.myform.css.value
             console.log(css);
