@@ -1,0 +1,44 @@
+h3{
+    text-align: center;
+    color: rgb(136, 255, 0);
+    font-size: 30px;
+}
+
+small{
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    line-height: 40px;
+    text-align: justify;
+    display: block;
+    text-indent: 60px;
+}
+
+.log{
+    width: 100px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.brand_name{
+    position: relative;
+    top: -60px;
+    left: 85px;
+    font-family: lobster;
+    font-size: 20px;
+}
+.navbar ul{
+    float: right;
+}
+.nav_brand{
+    display: inline-block;
+}
+.navbar ul li{
+    display: inline-block;
+    padding-top: 30px;
+    padding-right: 40px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: name;
+    color: black;
+}
